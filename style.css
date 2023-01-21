@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Mulish&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #252b42;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+/*-------------------------------------------*/
+
+.container {
+  max-width: 1600px;
+  margin: 0px auto;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0 60px 0;
+  background-color: #e3e3e3;
+}
+header h2 {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+}
+header p {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+nav {
+  display: flex;
+  background-color: #1089ff;
+  justify-content: center;
+  padding: 43px 0 43px 0;
+}
+
+.header_item1::before {
+  content: url(/images/Group1.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_item2::before {
+  content: url(/images/Group2.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_item3::before {
+  content: url(/images/Group3.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_item1 {
+  margin-left: -160px;
+}
+.header_item2 {
+  margin-left: -160px;
+}
+.header_item3 {
+  margin-left: -160px;
+}
+.nav_item1 a {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.nav_item a {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.nav_item {
+  padding: 0 100px 0 0;
+}
+
+.nav_item1 {
+  padding: 0 100px 0 0;
+}
+
+.nav_item:last-child {
+  padding: 0;
+}
+.banner {
+  overflow: hidden;
+  background-image: url(/images/Rectangle3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  text-align: center;
+}
+.banner_heading {
+  margin-top: 89px;
+  display: flex;
+  justify-content: center;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 92px;
+  color: #ffffff;
+}
+.banner_text {
+  display: flex;
+  justify-content: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+/*-------------------------------------------*/
+.welcome_block {
+  display: flex;
+  justify-content: center;
+  padding: 79px 0 79px 0;
+  background-color: #e3e3e3;
+}
+.welcome_info {
+  padding: 0 60px 0 60px;
+  display: flex;
+  flex-direction: column;
+  width: 598px;
+}
+.welcome_about {
+  font-family: "Satisfy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #1089ff;
+  line-height: 35px;
+  margin-top: 10px;
+}
+.welcome_heading {
+  font-family: "Oswald";
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 47px;
+  color: #000000;
+}
+.welcome_text {
+  font-family: "Inria Serif";
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #757474;
+}
+.welcome_butt {
+  background-color: #1089ff;
+  margin-top: 35px;
+  padding: 22px;
+  max-width: 177px;
+  border-radius: 9px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.welcome_banner {
+  height: 434px;
+  width: 657px;
+}
+.welcome_butt:active {
+  background-color: #2f4963;
+}
+/*-------------------------------------------*/
+.goods_block {
+  padding: 180px 0 180px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.good_item {
+  width: 310px;
+}
+.good_heading {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 37px;
+  color: #000000;
+  margin: 23px 0 20px 0;
+}
+.good_text {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+  color: #a4a4a4;
+}
+/*-------------------------------------------*/
+.footer_item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -30px;
+}
+.footer_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo {
+  width: 107px;
+  height: 83px;
+  margin-bottom: 68px;
+}
+.footer_text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+  text-align: start;
+}
+.footer_more {
+  display: flex;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 23px;
+}
+.footer_heading {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #000000;
+}
+.footer_link {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 25px 0 0 0;
+}
+.rights {
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #6b6b6b;
+  padding-bottom: 18px;
+}
+.footer_block {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #b1afaf;
+  padding: 104px 0 94px 0;
+}
+footer {
+  background-color: #b1afaf;
+  text-align: center;
+}
+/*-------------------------------------------*/
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:active {
+  color: #c7c7c7;
+}
+.footer_link:hover {
+  text-decoration: underline;
+}
+.footer_link:active {
+  color: #2f4963;
+}
+.footer_more:hover {
+  text-decoration: underline;
+}
+.footer_more:active {
+  color: white;
+}
+/*-------------------------------------------*/
